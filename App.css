@@ -1,0 +1,56 @@
+.App {
+    margin: 50px;
+}
+
+div.cal-widget {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gray;
+    border-radius: 4px;
+    justify-content: center;
+    padding: 8px;
+    width: 300px;
+    
+}
+div.cal-header {
+    display: flex;
+    justify-content: space-around;
+    margin: 8px;
+    width: 100%;
+}
+
+input.cal-text {
+    color: black;
+}
+
+input.cal-text-err {
+    color: red;
+}
+
+td.cal-day {
+    user-select: none;
+    color: gray;
+}
+
+td.cal-day-en {
+    user-select: none;
+}
+
+td.cal-day-en:hover {
+    background-color: lightgray;
+}
+
+div.cal-body {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: solid 1px gray;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+table {
+    margin: auto;
+}
